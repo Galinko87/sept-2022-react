@@ -1,13 +1,14 @@
 
-
-import {Count} from "./components/Count/Count";
 import {Users} from "./components/Users/Users";
+import {User} from "./components/User/User";
+import {SingleUser} from "./components/SingleUser/SingleUser";
 function App() {
 
   return (
     <div >
-        {/*<Count/>*/}
+
         <Users/>
+        {/*<SingleUser/>*/}
     </div>
   );
 }
