@@ -1,4 +1,5 @@
-const Car = ({car,setUpdateCar}) => {
+import {carService} from "../../services";
+const Car = ({car,setUpdateCar, setCars}) => {
     const {id, brand, price, year} = car;
 
     return (
@@ -8,7 +9,13 @@ const Car = ({car,setUpdateCar}) => {
             <div>price: {price}</div>
             <div>year: {year}</div>
             <button onClick={()=>setUpdateCar(car)}>update</button>
-            <button>delete</button>
+            <button onClick={()=> {
+                carService.deleteById(id).then(async ()=>{
+                    const {data} = await carService.getAll();
+                    setCars([...data])
+                }).catch(err => console.log(err))
+            }
+            }>delete</button>
 
         </div>
     );

@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88fac0a6-0fca-44c6-9aff-adfa0efbe889" name="Changes" comment="lesson 3">
-      <change afterPath="$PROJECT_DIR$/src/components/Car/Car.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CarForm/CarForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cars/Cars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/configs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/configs/urls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/axiosService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/carService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validators/carValidator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validators/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Car/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Car/Car.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CarForm/CarForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarForm/CarForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cars/Cars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cars/Cars.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +99,7 @@
       <workItem from="1674591730842" duration="10200000" />
       <workItem from="1675065001426" duration="3258000" />
       <workItem from="1675071227210" duration="1198000" />
-      <workItem from="1675073569667" duration="974000" />
+      <workItem from="1675073569667" duration="5150000" />
     </task>
     <task id="LOCAL-00001" summary="react lesson1 hw1">
       <created>1674080172089</created>
@@ -235,7 +227,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675072568321</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="lesson 3">
+      <created>1675074641278</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1675074641278</updated>
+    </task>
+    <task id="LOCAL-00020" summary="lesson 3">
+      <created>1675074649299</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1675074649299</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
