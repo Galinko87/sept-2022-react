@@ -1,12 +1,22 @@
-import React from "react";
+import {CarForm, Cars} from "./components";
+import {carService} from "./services";
+import {useEffect, useState} from "react";
 
+const App = () => {
+  const [cars, setCars] = useState([]);
+  const [updateCar, setUpdateCar] = useState(null);
 
-function App() {
+  useEffect(() => {
+    carService.getAll().then(({data})=>setCars([...data]))
+  }, [])
+
   return (
-    <div>
-
-    </div>
+      <div>
+        <CarForm setCars={setCars} updateCar={updateCar}/>
+        <hr/>
+        <Cars cars={cars} setUpdateCar={setUpdateCar}/>
+      </div>
   );
-}
+};
 
-export default App;
+export {App};
