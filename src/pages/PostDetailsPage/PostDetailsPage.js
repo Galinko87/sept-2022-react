@@ -1,5 +1,5 @@
-import {PostDetails} from "../../components";
 import {useLocation, useParams} from "react-router-dom";
+import {PostDetails} from "../../components";
 
 const PostDetailsPage = () => {
     const {postId} = useParams();
