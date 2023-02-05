@@ -7,7 +7,7 @@ class ClassComponent extends Component{
         this.state = {a:0, b:25}
     }
     componentDidMount() {
-        console.log('componentDidMonunt');
+        console.log('componentDidMount');
     }
 
     getSnapshotBeforeUpdate(prevProps, prevState) {
